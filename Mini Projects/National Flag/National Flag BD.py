@@ -1,0 +1,50 @@
+'''  Forhad 
+
+'''
+from turtle import *
+speed(1)
+bgcolor('black')
+hideturtle()
+lt(180)
+fd(150)
+lt(180)
+for i in range(2):
+    color('#006633')
+    begin_fill()
+    fd(250)
+    lt(90)
+    fd(150)
+    lt(90)
+    end_fill()
+
+lt(90)
+fd(160)
+for j in range(2):
+    color('white')
+    begin_fill()
+    lt(90)
+    fd(5)
+    lt(90)
+    fd(400)
+    end_fill()
+
+lt(180)
+fd(132)
+lt(90)
+penup()
+fd(120)
+pendown()
+color('red')
+begin_fill()
+circle(50)
+end_fill()
+
+penup()
+rt(90)
+fd(150)
+rt(90)
+fd(60)
+pendown()
+color('red')
+write('Happy Independence Day',font=('reader',30,'italic'))
+done()
